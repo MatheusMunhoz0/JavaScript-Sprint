@@ -73,4 +73,19 @@ button{
     font-weight: bold;
     transition: 0.2s;
 }
+button:hover{
+    transform: scale(1.05);
+}
 
+#tirarFoto{
+    background-color: white;
+}
+
+#trocarFiltro{
+    background-color: #4c8bf5;
+    color: white;
+}
+
+#mensagem{
+    margin-top: 10px;
+}
