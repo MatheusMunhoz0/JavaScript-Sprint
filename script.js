@@ -22,5 +22,25 @@ botaoFoto.addEventListener("click", function(){
     foto.src = `https://picsum.photos/300/500?random=${contador}`;
 });
 
+botaoFiltro.addEventListener("click", function(){
+
+    let filtroAtual = foto.style.filter;
+
+    if(filtroAtual === "grayscale(100%)"){
+        foto.style.filter = "none";
+        mensagem.innerText = "Filtro removido";
+    }
+    else{
+        foto.style.filter = "grayscale(100%)";
+        mensagem.innerText = "Filtro preto e branco ativado";
+    }
+
+});
 
 
+
+let nome = prompt("Digite seu nome:");
+
+if(nome){
+    mensagem.innerText = `Bem-vindo(a), ${nome}!`;
+}
