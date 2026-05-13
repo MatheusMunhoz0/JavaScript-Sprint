@@ -43,3 +43,4 @@ let nome = prompt("Digite seu nome:");
 
 if(nome){
     mensagem.innerText = `Bem-vindo(a), ${nome}!`;
+}
